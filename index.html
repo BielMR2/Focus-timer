@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+    <title>Focus Timer 2.0</title>
+
+    <link rel="icon" href="data:,">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <script src="main.js" type="module" defer></script>
+</head>
+<body>
+    <div class="app">
+        <div class="timer">
+            <div class="numbers">
+                <div id="minutes">25</div>
+                <div>:</div>
+                <div id="seconds">00</div>
+            </div>
+            <section id="controls" class="control-buttons">
+                <button 
+                    data-action="start"
+                    class="ph ph-play-circle">
+                </button>
+                <button 
+                    data-action="stop"
+                    class="ph ph-stop-circle">
+                </button>
+                <button
+                    data-action="sum" 
+                    class="ph ph-plus-circle">
+                </button>
+                <button 
+                    data-action="reduce"
+                    class="ph ph-minus-circle">
+                </button>
+            </section>
+        </div>
+
+        <section id="sound-controls" class="sound-buttons">
+            <button
+                data-action="forest" 
+                class="ph ph-leaf">
+            </button>
+            <button 
+                data-action="rain" 
+                class="ph ph-cloud-rain ">
+            </button>
+            <button
+                data-action="coffe"  
+                class="ph ph-storefront ">
+            </button>
+            <button
+                data-action="firePlace"  
+                class="ph ph-fire ">
+            </button>
+        </section>
+    </div>
+</body>
+</html>

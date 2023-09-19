@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "Roboto", sans-serif;
+}
+
+:root {
+    font-size: 62.5%; /* 1rem = 10px */
+}
+
+body {
+    font-size: 1.6rem;
+    
+}
+
+.app {
+    height: 90vh;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    gap: 19.7rem;
+}
+
+.numbers {
+    display: flex;
+    font-size: 12.6rem;
+}
+
+.control-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.control-buttons button {
+    font-size: 4.8rem;
+    color: #323238;
+
+    cursor: pointer;
+}
+
+.sound-buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+}
+
+.sound-buttons button {
+    font-size: 60px;
+    color: #323238;
+    padding: 40px;
+    background-color: #E1E1E6;
+    border-radius: 30px;
+
+    cursor: pointer;
+}
+
+.sound-buttons .activated {
+    background-color: #02799D;
+    color: white;
+}
+
+button {
+    border: none;
+    background: none;
+}
